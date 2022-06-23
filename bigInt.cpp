@@ -607,23 +607,6 @@ int main() {
 	fnf();
 
 
-	// long t;  cin >> t;
-	// while (t--) {
-	// 	ll ans1 = 0, ans2 = 0, ans3 = 0, ans4 = 0;
-	// 	// int ans1 = 0, ans2 = 0, ans3 = 0, ans4 = 0;
-
-
-	// }
-
-	int n;	cin >> n;
-	BigInt P(n);
-	BigInt two(2);
-	BigInt power;
-
-	power = (two ^ P);
-
-	cout << power;
-
 	return 0;
 
 }
